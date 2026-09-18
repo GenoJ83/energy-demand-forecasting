@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/*.csv
+!data/.gitkeep
+models/*.joblib
+.pytest_cache/
+.DS_Store
