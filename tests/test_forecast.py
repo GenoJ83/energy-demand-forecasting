@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("pandas")
 """Unit tests for time-series data generator, lag engineering, and predictor."""
 from src.data.generator import generate_hourly_load_data
 from src.features.lag_features import create_forecasting_features
